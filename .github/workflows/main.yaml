@@ -28,5 +28,5 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: "master"
+          branch: "main"
           repository: "mhaidir32/github-actions-test"
