@@ -1,0 +1,1 @@
+alert('script ini hasil bundling webpack');

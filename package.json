@@ -1,0 +1,16 @@
+{
+  "name": "github-actions-testing",
+  "version": "1.0.0",
+  "description": "testing github actions",
+  "main": "src/main.js",
+  "scripts": {
+      "dev": "webpack --mode development --watch",
+      "production": "webpack --mode production"
+  },
+  "author": "dier32",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
