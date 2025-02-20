@@ -23,7 +23,7 @@ jobs:
           git config --local user.name "haidir32"
           git config --local user.email "haidir32@gmail.com"
           git add .
-          git commit -m "[AUTO:BUILD] build from main.js"
+          git commit -m "[AUTO:BUILD] build from main.js" || echo "No changes to commit"
       - name: Push
         uses: ad-m/github-push-action@master
         with:
